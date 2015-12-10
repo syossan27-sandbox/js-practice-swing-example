@@ -1,0 +1,31 @@
+{
+  "name": "js-practice-swing-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syossan27-sandbox/js-practice-swing-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syossan27-sandbox/js-practice-swing-example/issues"
+  },
+  "homepage": "https://github.com/syossan27-sandbox/js-practice-swing-example#readme",
+  "dependencies": {
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "babelify": "^7.2.0"
+  },
+  "scripts": {
+    "build": "browserify --debug --transform babelify index.js --outfile bundle.js"
+  }
+}
