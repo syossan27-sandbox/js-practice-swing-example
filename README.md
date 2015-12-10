@@ -45,7 +45,7 @@ Wrote to /Users/innova/js-practice-swing-example/package.json:
 
 ### install babelfiy
 
-`$ npm install babelfiy --save`
+`$ npm install babelify --save`
 
 ### edit package.json
 
