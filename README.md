@@ -55,10 +55,10 @@ Note: browserify & babelify package version change according to the situation.
 
 ```
   "devDependencies": {
-    browserify: ^12.0.1,
-    babelify: ^7.2.0
+    "browserify": "^12.0.1",
+    "babelify": "^7.2.0"
   },
-  scripts: {
-    build: browserify --debug --transform babelify index.js --outfile bundle.js
+  "scripts": {
+    "build": "browserify --debug --transform babelify index.js --outfile bundle.js"
   }
 ```
