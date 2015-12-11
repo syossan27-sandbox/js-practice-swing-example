@@ -41,11 +41,11 @@ Wrote to /Users/innova/js-practice-swing-example/package.json:
 
 ### install browserify
 
-`$ npm install browserify --save`
+`$ npm install browserify --save-dev`
 
 ### install babelfiy
 
-`$ npm install babelify --save`
+`$ npm install babelify --save-dev`
 
 ### edit package.json
 
