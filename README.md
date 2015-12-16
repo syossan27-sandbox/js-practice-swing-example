@@ -45,7 +45,7 @@ Wrote to /Users/innova/js-practice-swing-example/package.json:
 
 ### install babelfiy
 
-`$ npm install babelify --save-dev`
+`$ npm install babelify babel-preset-es2015 babel-preset-react --save-dev`
 
 ### edit package.json
 
@@ -59,6 +59,6 @@ Note: browserify & babelify package version change according to the situation.
     "babelify": "^7.2.0"
   },
   "scripts": {
-    "build": "browserify --debug --transform babelify index.js --outfile bundle.js"
+    "build": "browserify --debug index.jsx --outfile bundle.js -t [ babelify --presets [ es2015 react ] ]",
   }
 ```
