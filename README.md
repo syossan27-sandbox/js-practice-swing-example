@@ -59,6 +59,6 @@ Note: browserify & babelify package version change according to the situation.
     "babelify": "^7.2.0"
   },
   "scripts": {
-    "build": "browserify --debug index.jsx --outfile bundle.js -t [ babelify --presets [ es2015 react ] ]",
+    "build": "browserify --debug index.jsx --outfile bundle.js -t [ babelify --presets [ es2015 react ] ]"
   }
 ```
