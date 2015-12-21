@@ -54,10 +54,6 @@ add this code to package.json
 Note: browserify & babelify package version change according to the situation.
 
 ```
-  "devDependencies": {
-    "browserify": "^12.0.1",
-    "babelify": "^7.2.0"
-  },
   "scripts": {
     "build": "browserify --debug index.jsx --outfile bundle.js -t [ babelify --presets [ es2015 react ] ]"
   }
